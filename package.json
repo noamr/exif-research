@@ -1,0 +1,10 @@
+{
+  "name": "exif-research",
+  "version": "1.0.0",
+  "description": "Gather statistics about EXIF attributes from the web",
+  "main": "index.js",
+  "repository": "git@github.com:noamr/exif-research.git",
+  "author": "Noam Rosenthal",
+  "license": "MIT",
+  "private": false
+}
