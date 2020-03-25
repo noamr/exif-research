@@ -2,9 +2,19 @@
   "name": "exif-research",
   "version": "1.0.0",
   "description": "Gather statistics about EXIF attributes from the web",
-  "main": "index.js",
+  "main": "index.ts",
   "repository": "git@github.com:noamr/exif-research.git",
   "author": "Noam Rosenthal",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "exif": "^0.6.0",
+    "puppeteer": "^2.1.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^2.0.1",
+    "typescript": "^3.8.3"
+  }
 }
